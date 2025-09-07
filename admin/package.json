@@ -1,0 +1,17 @@
+{
+  "name": "civic-admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server -p 5174 -c-1 .",
+    "build": "echo 'Static demo'"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+

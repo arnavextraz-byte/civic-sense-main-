@@ -12,7 +12,7 @@ if (typeof global.EventSource === "undefined") {
   global.EventSource = EventSourcePolyfill;
 }
 
-
+// demo
 const Stack = createStackNavigator();
 
 export default function App() {
